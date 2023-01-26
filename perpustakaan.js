@@ -170,7 +170,7 @@ app.get("/buku", (req,res) => {
     })
 })
 
-app.get("/siswa/:id_buku", (req, res) => {
+app.get("/buku/:id_buku", (req, res) => {
     let data = {
         id_buku: req.params.id
     }
